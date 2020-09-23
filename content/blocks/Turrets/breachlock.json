@@ -1,0 +1,69 @@
+"type": "ItemTurret"
+"name": "Breachlock"
+"description": "A larger, more powerful version of the Duo turret."
+
+"size": 2
+"health": 240
+"reload": 15
+"range": 200
+"maxAmmo": 40
+"shots" : 3
+"targetAir": true
+	"targetGround": true
+"inaccuracy": 5
+"shootCone" : 1
+"spread" : 0.5
+"recoil" : 10
+"restitution" : 0.5
+"rotatespeed": 5
+"shootSound" : "shotgun"
+"ammoUseEffect": "shellEjectBig"
+"ammoPerShot" : 3
+
+"ammo": {
+	"copper": {
+		"type" : "BasicBulletType"
+		"speed": 8
+		"damage": 11
+		"ammoMultiplier": 2
+		"bulletHeight" : 10
+		"hitEffect": "blastExplosion"
+		"shootEffect": "producesmoke"
+		"smokeEffect": "hitBulletBig"
+	},
+	
+	"graphite": {
+		"type" : "BasicBulletType"
+		"speed": 8
+		"damage": 22
+		"ammoMultiplier": 4
+		"reloadMultiplier": 0.6
+		"bulletHeight" : 10
+		"hitEffect": "blastExplosion"
+		"shootEffect": "producesmoke"
+		"smokeEffect": "hitBulletBig"
+	},
+	
+	"silicon": {
+		"type" : "BasicBulletType"
+		"speed": 8
+		"damage": 11
+		"ammoMultiplier": 5
+		"reloadMultiplier": 1.5
+		"bulletHeight" : 10
+		"homingPower": 1
+		"homingRange":40
+		"hitEffect": "blastExplosion"
+		"shootEffect": "producesmoke"
+			"smokeEffect": "hitBulletBig"
+	}
+},
+
+"requirements": [
+	{ "item": "lead", "amount": 65 }
+	{ "item": "copper", "amount": 50 }
+	{ "item": "graphite", "amount": 40}
+],
+
+"category": "turret"
+"research": "scatter"
