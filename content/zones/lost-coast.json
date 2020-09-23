@@ -8,7 +8,7 @@
     "requirements": [
     	{
     		"type": "ZoneWave",
-			"zone": "tarfields", 
+			"zone": "tarFields", 
     		"wave": 60
 			}
 
