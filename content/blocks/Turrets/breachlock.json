@@ -45,14 +45,12 @@
 	},
 	
 	"silicon": {
-		"type" : "ArtilleryBulletType"
+		"type" : "BasicBulletType"
 		"speed": 8
 		"damage": 11
-		"ammoMultiplier": 5
+		"ammoMultiplier": 4
 		"reloadMultiplier": 1.5
 		"bulletHeight" : 10
-		"homingPower": 1
-		"homingRange": 120
 		"hitEffect": "blastExplosion"
 		"shootEffect": "producesmoke"
 		"smokeEffect": "hitBulletBig"
