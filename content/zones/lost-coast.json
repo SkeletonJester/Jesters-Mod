@@ -1,0 +1,17 @@
+{
+	"name": "Lost Coast - Emergence",
+	"description": "After acquiring new technology, our investigation team also found unknown new enemies. Due to not evacuating in time, our minerals have nothing. Please leave the area in wave 40!",
+    "conditionWave": 10,
+	"loadout": "basicFoundation"
+        "startingItems": [
+    ],
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+			"zone": "tar-fields", 
+    		"wave": 60
+			}
+
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "quartz","titanium""aluminum""thorium"]
+}
