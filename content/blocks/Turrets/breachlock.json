@@ -4,7 +4,7 @@
 
 "size": 2
 "health": 240
-"reload": 15
+"reload": 8
 "range": 200
 "maxAmmo": 40
 "shots" : 3
@@ -37,7 +37,7 @@
 		"speed": 8
 		"damage": 22
 		"ammoMultiplier": 4
-		"reloadMultiplier": 0.6
+		"reloadMultiplier": 1.5
 		"bulletHeight" : 10
 		"hitEffect": "blastExplosion"
 		"shootEffect": "producesmoke"
@@ -49,7 +49,7 @@
 		"speed": 8
 		"damage": 11
 		"ammoMultiplier": 5
-		"reloadMultiplier": 1.5
+		"reloadMultiplier": 0.5
 		"bulletHeight" : 10
 		"homingPower": 1
 		"homingRange":40
