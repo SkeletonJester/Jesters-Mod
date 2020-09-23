@@ -54,6 +54,8 @@
 		"hitEffect": "blastExplosion"
 		"shootEffect": "producesmoke"
 		"smokeEffect": "hitBulletBig"
+		"homingPower": 1,
+		"homingRange": 40,
 	}
 },
 
