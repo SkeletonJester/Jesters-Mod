@@ -57,7 +57,7 @@
 		"homingPower": 1,
 		"homingRange": 40,
 		"lightining": 5,
-			"lightningLength": 2,
+			"lightningLength": 8,
 	}
 },
 
