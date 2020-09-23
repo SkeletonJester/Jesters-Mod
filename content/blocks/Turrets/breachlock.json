@@ -47,7 +47,7 @@
 	"silicon": {
 		"type" : "BasicBulletType"
 		"speed": 6
-		"damage": 13
+		"damage": 11
 		"ammoMultiplier": 4
 		"reloadMultiplier": 1.5
 		"bulletHeight" : 10
@@ -56,6 +56,8 @@
 		"smokeEffect": "hitBulletSmall"
 		"homingPower": 1,
 		"homingRange": 40,
+		"lightining": 5,
+			"lightningLength": 2,
 	}
 },
 
