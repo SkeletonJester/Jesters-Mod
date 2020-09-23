@@ -45,7 +45,7 @@
 	},
 	
 	"silicon": {
-		"type" : "BasicBulletType"
+		"type" : "ArtilleryBulletType"
 		"speed": 8
 		"damage": 11
 		"ammoMultiplier": 5
