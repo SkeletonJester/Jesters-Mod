@@ -37,7 +37,7 @@
 		"speed": 8
 		"damage": 22
 		"ammoMultiplier": 4
-		"reloadMultiplier": 1.5
+		"reloadMultiplier": 0.6
 		"bulletHeight" : 10
 		"hitEffect": "blastExplosion"
 		"shootEffect": "producesmoke"
@@ -49,13 +49,13 @@
 		"speed": 8
 		"damage": 11
 		"ammoMultiplier": 5
-		"reloadMultiplier": 0.5
+		"reloadMultiplier": 1.5
 		"bulletHeight" : 10
 		"homingPower": 1
-		"homingRange":40
+		"homingRange": 120
 		"hitEffect": "blastExplosion"
 		"shootEffect": "producesmoke"
-			"smokeEffect": "hitBulletBig"
+		"smokeEffect": "hitBulletBig"
 	}
 },
 
