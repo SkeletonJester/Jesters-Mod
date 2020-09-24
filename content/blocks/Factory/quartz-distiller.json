@@ -13,7 +13,7 @@
 	"updateEffectChance": 0.1
 		"power": 0.25
 		"items": {
-			"items:" [
+			"items": [
 				lead/2
 				sand/3
 			]
