@@ -21,9 +21,7 @@
 				
 			]
 		}
-		"liquid": {
-			water/0.5
-		}
+		"liquid": water/0.5
 	},
 	"requirements": [
 		{ "item": "copper", "amount": 150 }
