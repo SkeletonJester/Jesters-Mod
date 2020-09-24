@@ -13,17 +13,18 @@
 	"craftEffect":"mine"
 	"updateEffect": "none"
 	"updateEffectChance": 0.1
-		"power": 0.25
-		"items": {
-			"items": [
-				lead/2
-				sand/3
-			]
+		"consumes": {
+			"power": 0.25
+			"items": {
+				"items": [
+					lead/2
+					sand/3
+				]
+			}
+			"liquid": {
+				water/0.5
+			}
 		}
-		"liquid": {
-			water/0.5
-		}
-	
 	
 	"requirements": [
 		{ "item": "copper", "amount": 150 }
