@@ -17,12 +17,12 @@
 			"power": 0.25
 			"items": {
 				"items": [
-					lead/2
-					sand/3
+					{ "item": lead, "amount": 2 }
+					{ "item": sand, "amount": 2 }
 				]
 			}
 			"liquid": {
-				water/0.5
+				{ "liquid": water, "amount": 0.5, "booster": false }
 			}
 		}
 	
