@@ -4,9 +4,11 @@
 	"health":50 
 	"itemCapacity": 30
 	"outputItem": {"item": "quartz","amount":2 }
+	"liquidCapacity": 60
 	"size":2 
 	"hasPower": true
 	"hasItems": true
+	"hasLiquid": true
 	"craftTime": 90
 	"craftEffect":"mine"
 	"updateEffect": "none"
