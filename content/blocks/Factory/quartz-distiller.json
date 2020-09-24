@@ -21,9 +21,7 @@
 					{ "item": sand, "amount": 2 }
 				]
 			}
-			"liquid": {
-				{ "liquid": water, "amount": 0.5, "booster": false }
-			}
+			"liquid": { "liquid": water, "amount": 0.5, "booster": false }
 		}
 	
 	"requirements": [
