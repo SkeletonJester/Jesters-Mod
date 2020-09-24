@@ -1,34 +1,34 @@
-{
 	"type": "GenericCrafter"
-	"name": "Quartz Distiller",
-	"description": "By evaporating water with sand and mineral compounds, this factory produces raw Quartz for manufacturing purposes.",
-	"health":50 ,
-	"itemCapacity": 30,
-	"outputItem": {"item": "quartz","amount":2 },
-	"size":2 ,
-	"hasPower": true,
-	"hasItems": true,
-	"craftTime": 90,
-	"craftEffect":"mine",
-	"updateEffect": "none",
-	"updateEffectChance": 0.1,
-	"consumes": {
-		"power": 0.25,
+	"name": "Quartz Distiller"
+	"description": "By evaporating water with sand and mineral compounds, this factory produces raw Quartz for manufacturing purposes."
+	"health":50 
+	"itemCapacity": 30
+	"outputItem": {"item": "quartz","amount":2 }
+	"size":2 
+	"hasPower": true
+	"hasItems": true
+	"craftTime": 90
+	"craftEffect":"mine"
+	"updateEffect": "none"
+	"updateEffectChance": 0.1
+		"power": 0.25
 		"items": {
-			"items": [
-				{ "item": "sand", "amount": 2}
-				{ "item": "lead", "amount": 1}
-				
+			"items:" [
+				lead/2
+				sand/3
 			]
 		}
-		"liquid": water/0.5
-	},
+		"liquid": {
+			water/0.5
+		}
+	
+	
 	"requirements": [
 		{ "item": "copper", "amount": 150 }
 		{ "item": "lead", "amount": 100 }
 		{ "item": "graphite", "amount": 50 }
 		{ "item": "silicon", "amount": 30 }
-	],
-	"category": "crafting",
+	]
+	
+	"category": "crafting"
 	"research": "silicon-smelter"
-}
