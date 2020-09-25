@@ -25,7 +25,7 @@
 		{ "item": "lead", "amount": 45 }
 	],
 	"category": "crafting",
-	"research": "mechanical-drill",
+	"research": "plastanium-compressor",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }
