@@ -24,7 +24,7 @@
 		"lead": {
 			"type" : "BasicBulletType",
 			"speed": 8,
-			"damage": 11,
+			"damage": 25,
 			"bulletHeight" : 10,
 			"hitEffect": "blastExplosion",
 			"shootEffect": "producesmoke",
@@ -36,7 +36,7 @@
 			"speed": 10,
 			"reloadMultiplier": 0.75,
 			"recoil" : 20,
-			"damage": 13,
+			"damage": 23,
 			"bulletHeight" : 10,
 			"hitEffect": "blastExplosion",
 			"shootEffect": "producesmoke",
@@ -44,7 +44,7 @@
 			"fragBullets": 3,
 			"fragBullet": {
 				"type": "BasicBulletType",
-				"damage": 4,
+				"damage": 7,
 				"speed": 2,
 				"lifetime": 15,
 				"fragBullets": 2,
@@ -52,7 +52,7 @@
 					"type": "BasicBulletType",
 					"speed": 2,
 					"lifetime": 15,
-					"damage": 3,
+					"damage": 4,
 				}
 			}
 		},
@@ -62,8 +62,8 @@
 			"type" : "BasicBulletType",
 			"speed": 5,
 			"reloadMultiplier": 0.5,
-			"damage": 21,
-				"splashDamage": 5,
+			"damage": 35,
+				"splashDamage": 12,
 				"splashDamageRadius": 16,
 			"knockback": 5,
 			"bulletHeight" : 10,

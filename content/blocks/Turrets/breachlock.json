@@ -56,8 +56,15 @@
 		"smokeEffect": "hitBulletSmall"
 		"homingPower": 1,
 		"homingRange": 40,
-		"lightining": 5,
-			"lightningLength": 8,
+		"fragBullets": 3,
+			"fragBullet": {
+				"type": "BasicBulletType",
+				"damage": 4,
+				"speed": 2,
+				"lifetime": 5,
+				"lightining": 5,
+				"lightningLength": 3,
+			}
 	}
 },
 
