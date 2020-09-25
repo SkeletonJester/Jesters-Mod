@@ -1,0 +1,33 @@
+	"type": "GenericSmelter"
+	"name": "Gold Refinery",
+	"description": "Uses iron to refine and smelt sand and quartz into gold.",
+	"health":80 ,
+	"itemCapacity": 10,
+	"outputItem": {"item": "gold","amount":1 },
+	"size":2 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smoke",
+	"consumes": {
+		"power": 1,
+		"items": {
+			"items": [
+                { "item": "sand", "amount": 4 }
+				{ "item": "quartz", "amount": 3 }
+				{ "item": "iron", "amount": 2 }
+				
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 125 }
+		{ "item": "quartz", "amount": 110 }
+		{ "item": "lead", "amount": 110 }
+		{ "item": "iron", "amount": 50 }
+		{ "item": "titanium", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "iron-refinery",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
